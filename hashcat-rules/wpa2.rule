@@ -1,0 +1,70 @@
+## Do nothing
+:
+
+## Make all lowercase
+l
+
+## Make all uppercase 
+u
+
+## Capitalise the first letter
+c
+
+## Substitute characters with common symbols
+sa4
+sA4
+sa@
+sA@
+so0
+sO0
+si1
+sI1
+si!
+sI!
+se3
+sE3
+ss$
+sS$
+ss5
+sS5
+sc(
+sC(
+sl1
+sL1
+sa@ sl1 se3 ss$
+sa4 ae3 sl1
+
+## Append with years - long format
+$2 $0 $2 $4 
+$2 $0 $2 $3
+$2 $0 $2 $0
+$2 $0 $0 $0
+
+## Append with years - short format
+$2 $4
+$2 $3
+$2 $0
+
+## Append with common special chars
+$1
+$1
+$! $!
+$?
+$.
+
+## Append with WiFi related words
+$w $i $f $i
+$W $i $F $i
+$w $i $- $f $i
+$W $i $- $F $i
+$W $I $F $I
+$@ $1 $2 $3
+$1 $2 $3 $4
+
+## Prepend with common words
+^m ^y
+^M ^y
+^M ^y $!
+^n ^o ^t ^y ^o ^u ^r
+^N ^o ^t ^y ^o ^u ^r
+^N ^o ^t ^y ^o ^u ^r $!
