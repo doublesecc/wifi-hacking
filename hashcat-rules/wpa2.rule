@@ -1,16 +1,19 @@
-## Do nothing
+# Do nothing
 :
 
-## Make all lowercase
+# Make all lowercase
 l
 
-## Make all uppercase 
+# Make all uppercase 
 u
 
-## Capitalise the first letter
+# Capitalise the first letter
 c
 
-## Substitute characters with common symbols
+# Toggle the case of characters at position 0
+T0
+
+# Substitute characters with common symbols
 sa4
 sA4
 sa@
@@ -34,37 +37,45 @@ sL1
 sa@ sl1 se3 ss$
 sa4 ae3 sl1
 
-## Append with years - long format
-$2 $0 $2 $4 
-$2 $0 $2 $3
+# Append with years - long format
+$2 $0 $2 $5
+$2 $0 $2 $5 $!
+$2 $0 $2 $4
+$2 $0 $2 $4 $!
 $2 $0 $2 $0
-$2 $0 $0 $0
+$2 $0 $2 $0 $!
 
-## Append with years - short format
+# Append with years - short format
+$2 $5
+$2 $5 $!
 $2 $4
-$2 $3
+$2 $4 $!
 $2 $0
+$2 $0 $!
 
-## Append with common special chars
+# Append with numbers
 $1
-$1
+$1 $2 $3 $4
+$1 $2 $3 $!
+$1 $2 $3 $4
+$1 $2 $3 $4 $!
+$@ $1 $2 $3
+
+# Append with common special chars
+$!
 $! $!
 $?
 $.
 
-## Append with WiFi related words
+# Append with WiFi related words
 $w $i $f $i
 $W $i $F $i
 $w $i $- $f $i
 $W $i $- $F $i
 $W $I $F $I
-$@ $1 $2 $3
-$1 $2 $3 $4
 
-## Prepend with common words
-^m ^y
+# Prepend with common words
 ^M ^y
-^M ^y $!
-^n ^o ^t ^y ^o ^u ^r
 ^N ^o ^t ^y ^o ^u ^r
-^N ^o ^t ^y ^o ^u ^r $!
+^W ^e ^l ^c ^o ^m ^e ^2
+^N ^o ^t
